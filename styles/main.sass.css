@@ -4,9 +4,47 @@ html, body, h1 {
   background: #3d3d3d;
   color: #D3D3D3; }
 
-#menu, #setting, #leaders, #play {
+#menu, #setting, #play {
   font-family: Coda, Arial, sans-serif;
-  color: #D3D3D3; }
+  color: #D3D3D3;
+  text-align: center; }
+
+#menu {
+  padding-bottom: 15em;
+  padding-top: 15em;
+  text-align: center; }
+
+#loader {
+  padding-bottom: 20em;
+  padding-top: 20em;
+  text-align: center; }
+
+#play {
+  padding-bottom: 3em; }
+
+#leaders {
+  text-align: center;
+  padding-bottom: 10em;
+  padding-top: 10em; }
+  #leaders h1 {
+    padding-bottom: 1em; }
+
+#settings {
+  text-align: center;
+  padding-bottom: 15em;
+  padding-top: 15em; }
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside; }
 
 img {
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 3em; }
+
+a {
+  font-family: Coda, Arial, sans-serif;
+  color: #D3D3D3;
+  text-decoration: none;
+  display: block; }
